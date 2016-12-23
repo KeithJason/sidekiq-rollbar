@@ -1,4 +1,5 @@
 require 'rollbar'
+require 'sidekiq/util'
 module Sidekiq
   module Rollbar
     class Middleware
